@@ -5,6 +5,6 @@ module ArtistsHelper
 
   def artist_select(song, artist)
     # if song id and artist id are entered
-    options_from_collection_for_select(Artist.all, :id, 'name')
+    options_from_collection_for_select(Artist.all, :id, :name)
   end
 end
