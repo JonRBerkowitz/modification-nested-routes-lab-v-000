@@ -4,7 +4,7 @@ module ArtistsHelper
   end
 
   def artist_select(artist_id, artist)
-    if artist
+    if artist_id
       artist.name
     else
     # if song id and artist id are entered
